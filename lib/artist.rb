@@ -31,13 +31,6 @@ class Artist
     artist= self.new(name)
     artist.save
     artist 
-=======
-     @all.detect{ |artist| artist.name == name}
-    else 
-     artist = Artist.new(name)
-    artist.save
-   artist
->>>>>>> 73dbe774819d3ad0fd10af113537bcc545438e78
     end 
   end 
    # def self.find_by_name(name)
